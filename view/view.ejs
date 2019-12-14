@@ -62,7 +62,7 @@
     <div class="fixed-bottom text-white text-center copyright">
       <h6>
         참고 자료 및 문헌: 한국영양학회 - 한국인의 하루 에너지 필요 추정량 발표자료, fatsecret(대한민국) - 칼로리 소비량과 피트니스 정보<br />
-        <hr class="bg-info" />
+        <hr class="bg-light splitter-h" />
         Copyright <i class="fas fa-copyright"></i> 2019~2020. 장곡중학교(칠곡) - Software And Guiders, MIT Licensed.<br />
         모든 저작권은 (칠곡) 장곡중학교와 Software And Guiders(SWAG, 장곡중 소프트웨어 동아리)에 있으며, 무단 복제 및 2차 배포를 금합니다<br />
       </h6>
@@ -114,12 +114,16 @@
         font-size: 3vw;
         display: flex;
       }
-      
+
       .splitter {
         padding: 0px 4px;
         flex: 0 0 0px;
         height: auto;
         background-color: #ffffff;
+      }
+      
+      .splitter-h {
+        width: 50vw;
       }
       
       .resBold {
@@ -135,6 +139,10 @@
         font-size: 1.5vw;
       }
     </style>
+
+    <script>
+      anime({ targets: '.letter', rotate: 360, delay: anime.stagger(50) })
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
