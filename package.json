@@ -1,0 +1,35 @@
+{
+  "name": "janggokfoods",
+  "version": "1.0.0",
+  "description": "장곡중, 오늘의 급식은?",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftWareAndGuider/JanggokFoods.git"
+  },
+  "author": "SWAG Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SoftWareAndGuider/JanggokFoods/issues"
+  },
+  "homepage": "https://github.com/SoftWareAndGuider/JanggokFoods#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "superagent": "^5.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
